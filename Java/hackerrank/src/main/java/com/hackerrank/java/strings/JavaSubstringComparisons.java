@@ -9,9 +9,9 @@ public class JavaSubstringComparisons {
         // 'smallest' must be the lexicographically smallest substring of length 'k'
         // 'largest' must be the lexicographically largest substring of length 'k'
 
-        String initialValue = text.substring(0, 3);
+        String initialValue = text.substring(0, size);
         String smallest = initialValue;
-        String largest = initialValue;
+        String largest = "";
 
         for(int i=0; i<=(text.length()-size); i++){
            String str = text.substring(i,size+i); //the substring end index, is exclusive.

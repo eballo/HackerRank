@@ -15,4 +15,17 @@ public class JavaSubstringComparisonsTest extends HackerRankTest {
         assertEquals("ava",result[0]);
         assertEquals("wel",result[1]);
     }
+
+    @Test
+    public void getSmallestAndLargestWrongValue(){
+        String text ="ASDFHDSFHsdlfhsdlfLDFHSDLFHsdlfhsdlhkfsdlfLHDFLSDKFHsdfhsdlkfhsdlfhsLFDLSFHSDLFHsdkfhsdkfhsdkfhsdfhsdfjeaDFHSDLFHDFlajfsdlfhsdlfhDSLFHSDLFHdlfhs";
+        int size = 30;
+
+        System.out.println(JavaSubstringComparisons.getSmallestAndLargest(text,size));
+
+        String [] result = getOutputResult();
+        assertEquals("ASDFHDSFHsdlfhsdlfLDFHSDLFHsdl",result[0]);
+        assertEquals("sdlkfhsdlfhsLFDLSFHSDLFHsdkfhs",result[1]);
+
+    }
 }

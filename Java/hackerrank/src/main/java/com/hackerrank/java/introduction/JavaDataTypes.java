@@ -3,7 +3,8 @@ package com.hackerrank.java.introduction;
 import java.util.Scanner;
 
 public class JavaDataTypes {
-    public static void main(String []argh) {
+
+    public static void main(String []arg) {
         Scanner sc = new Scanner(System.in);
         int t=sc.nextInt();
 
@@ -21,7 +22,7 @@ public class JavaDataTypes {
             {
                 System.out.println(sc.next()+" can't be fitted anywhere.");
             }
-
         }
     }
+    
 }

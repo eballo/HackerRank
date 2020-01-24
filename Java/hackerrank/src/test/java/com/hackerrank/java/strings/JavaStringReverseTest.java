@@ -1,17 +1,18 @@
 package com.hackerrank.java.strings;
 
+import com.hackerrank.java.HackerRankTest;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
-public class JavaStringReverseTest extends HackerRankTest{
+public class JavaStringReverseTest extends HackerRankTest {
 
     @Test
     public void solutionYes() {
 
         JavaStringReverse.solution("madam");
 
-        String[] result = systemOutRule.getLog().split("\n");
+        String[] result = getOutputResult();
         assertEquals( "Yes", result[0]);
     }
 
@@ -20,7 +21,7 @@ public class JavaStringReverseTest extends HackerRankTest{
 
         JavaStringReverse.solution("robert");
 
-        String[] result = systemOutRule.getLog().split("\n");
+        String[] result = getOutputResult();
         assertEquals( "No", result[0]);
     }
 }

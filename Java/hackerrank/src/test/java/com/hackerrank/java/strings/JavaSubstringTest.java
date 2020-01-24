@@ -6,19 +6,16 @@ import org.junit.contrib.java.lang.system.SystemOutRule;
 
 import static org.junit.Assert.*;
 
-public class JavaStringsIntroductionTest {
+public class JavaSubstringTest {
 
     @Rule
     public final SystemOutRule systemOutRule = new SystemOutRule().enableLog();
 
     @Test
     public void solution() {
-        JavaStringsIntroduction.solution("hello", "java");
+        JavaSubstring.solution("Helloworld", 3, 7);
 
-        String[] result = systemOutRule.getLog().split("\n");
-
-        assertEquals( "9", result[0]);
-        assertEquals( "No",result[1]);
-        assertEquals( "Hello Java", result[2]);
+        String [] result = systemOutRule.getLog().split("\n");
+        assertEquals("lowo", result[0]);
     }
 }

@@ -6,11 +6,17 @@ import java.util.*;
 public class JavaStringTokens {
 
     static void solution(String s){
-        String [] tokens = s.split("\\s*[^a-zA-Z]+\\s*");
+        s = s.trim();
+        //Check the given string
+        if(!s.matches("[A-Za-z !,?._'@]+")){
+            System.out.println(0);
+        }else {
+            String[] tokens = s.split("[^a-zA-Z]+");
 
-        System.out.println(tokens.length);
-        for(String token : tokens){
-            System.out.println(token);
+            System.out.println(tokens.length);
+            for (String token : tokens) {
+                System.out.println(token);
+            }
         }
     }
 

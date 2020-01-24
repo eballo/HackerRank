@@ -1,15 +1,10 @@
 package com.hackerrank.java.strings;
 
-import org.junit.Rule;
 import org.junit.Test;
-import org.junit.contrib.java.lang.system.SystemOutRule;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
-public class JavaStringsIntroductionTest {
-
-    @Rule
-    public final SystemOutRule systemOutRule = new SystemOutRule().enableLog();
+public class JavaStringsIntroductionTest extends HackerRankTest{
 
     @Test
     public void solution() {

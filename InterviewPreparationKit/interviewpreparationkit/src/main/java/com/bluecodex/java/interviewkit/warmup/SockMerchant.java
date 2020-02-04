@@ -1,4 +1,4 @@
-package com.bluecodex.java.interviewkit;
+package com.bluecodex.java.interviewkit.warmup;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;

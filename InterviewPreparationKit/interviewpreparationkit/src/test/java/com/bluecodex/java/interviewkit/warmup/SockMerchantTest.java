@@ -1,5 +1,6 @@
-package com.bluecodex.java.interviewkit;
+package com.bluecodex.java.interviewkit.warmup;
 
+import com.bluecodex.java.interviewkit.warmup.SockMerchant;
 import org.junit.Assert;
 import org.junit.Test;
 

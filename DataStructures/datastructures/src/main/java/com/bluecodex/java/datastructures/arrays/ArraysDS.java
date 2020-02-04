@@ -1,4 +1,4 @@
-package com.bluecodex.java.datastructures;
+package com.bluecodex.java.datastructures.arrays;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
@@ -9,7 +9,7 @@ import java.util.Scanner;
  * Hello world!
  *
  */
-public class App 
+public class ArraysDS
 {
     private static final Scanner scanner = new Scanner(System.in);
 

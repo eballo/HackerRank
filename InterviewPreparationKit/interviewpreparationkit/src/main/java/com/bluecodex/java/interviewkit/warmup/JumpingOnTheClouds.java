@@ -13,7 +13,7 @@ public class JumpingOnTheClouds {
         int jumps = -1; // because when the condition is not meet in the loop we will increment a jump before going out I will start with a negative value
 
         for(int x = 0; x<c.length; x++){
-            if(x<size-2 && c[x+2]==0 ){
+            if(x<size-2 && c[x+2]==0 ){ // If we can jump 2 times we will do it always because is the fastest way
                 x ++; // double jump increment here and in the for loop
             }
             jumps++;

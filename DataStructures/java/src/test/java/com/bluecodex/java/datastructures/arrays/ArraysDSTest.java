@@ -1,6 +1,5 @@
 package com.bluecodex.java.datastructures.arrays;
 
-import com.bluecodex.java.datastructures.arrays.ArraysDS;
 import org.junit.Test;
 
 /**

@@ -3,8 +3,6 @@ package com.bluecodex.java.datastructures.arrays;
 import org.junit.Assert;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
 public class TwoDArraysDSTest {
 
     @Test

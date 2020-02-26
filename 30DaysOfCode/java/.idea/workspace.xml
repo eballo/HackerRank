@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="56bcf633-02a1-4d92-9719-f55534b0b4ca" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
-    </list>
+    <list default="true" id="56bcf633-02a1-4d92-9719-f55534b0b4ca" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -122,21 +119,21 @@
       <screen x="44" y="23" width="1636" height="1027" />
     </state>
     <state x="623" y="55" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/44.23.1636.1027@44.23.1636.1027" timestamp="1582640666859" />
-    <state width="1594" height="280" key="GridCell.Tab.0.bottom" timestamp="1582645096789">
+    <state width="1594" height="280" key="GridCell.Tab.0.bottom" timestamp="1582712533701">
       <screen x="44" y="23" width="1636" height="1027" />
     </state>
-    <state width="1594" height="280" key="GridCell.Tab.0.bottom/44.23.1636.1027@44.23.1636.1027" timestamp="1582645096789" />
-    <state width="1594" height="280" key="GridCell.Tab.0.center" timestamp="1582645096788">
+    <state width="1594" height="280" key="GridCell.Tab.0.bottom/44.23.1636.1027@44.23.1636.1027" timestamp="1582712533701" />
+    <state width="1594" height="280" key="GridCell.Tab.0.center" timestamp="1582712533700">
       <screen x="44" y="23" width="1636" height="1027" />
     </state>
-    <state width="1594" height="280" key="GridCell.Tab.0.center/44.23.1636.1027@44.23.1636.1027" timestamp="1582645096788" />
-    <state width="1594" height="280" key="GridCell.Tab.0.left" timestamp="1582645096787">
+    <state width="1594" height="280" key="GridCell.Tab.0.center/44.23.1636.1027@44.23.1636.1027" timestamp="1582712533700" />
+    <state width="1594" height="280" key="GridCell.Tab.0.left" timestamp="1582712533699">
       <screen x="44" y="23" width="1636" height="1027" />
     </state>
-    <state width="1594" height="280" key="GridCell.Tab.0.left/44.23.1636.1027@44.23.1636.1027" timestamp="1582645096787" />
-    <state width="1594" height="280" key="GridCell.Tab.0.right" timestamp="1582645096788">
+    <state width="1594" height="280" key="GridCell.Tab.0.left/44.23.1636.1027@44.23.1636.1027" timestamp="1582712533699" />
+    <state width="1594" height="280" key="GridCell.Tab.0.right" timestamp="1582712533700">
       <screen x="44" y="23" width="1636" height="1027" />
     </state>
-    <state width="1594" height="280" key="GridCell.Tab.0.right/44.23.1636.1027@44.23.1636.1027" timestamp="1582645096788" />
+    <state width="1594" height="280" key="GridCell.Tab.0.right/44.23.1636.1027@44.23.1636.1027" timestamp="1582712533700" />
   </component>
 </project>

@@ -5,6 +5,7 @@ HackerRank Solutions
 - Algorithms
   - Java
 - Linux Shell
+- Python
 - SQL
   - Oracle
 

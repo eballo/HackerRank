@@ -6,3 +6,4 @@ HackerRank Solutions
 - Linux Shell
 - 30 Days of Code (Java)
 - 10 Days of JavaScript
+- SQL

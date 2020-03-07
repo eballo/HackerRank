@@ -1,9 +1,10 @@
 package com.hackerrank.thirtydaysofcode;
 
-
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Scanner;
 
-public class Day22 {
+class Day23{
 
     static class Node{
         Node left,right;
@@ -14,18 +15,25 @@ public class Day22 {
         }
     }
 
+    static void levelOrder(Node root){
+        if(root!=null) {
+            // 1 - enqueue current root
+            Queue<Node> queue = new LinkedList<>();
+            queue.add(root);
 
-    public static int getHeight(Node root){
-        int left = 0, right = 0;
+            // 2-  while there are nodes to process
+            while (queue.peek() != null) {
+                // 3- dequeue next node
+                Node node = queue.remove();
+                System.out.print("" + node.data + " ");
 
-        if(root!=null){
-            right = getHeight(root.right);
-            left = getHeight(root.left);
-            return Math.max(left, right) + 1;
-        }else{
-            return -1;
+                // 4- enqueue child elements from next level in order
+                if (node.left != null)
+                    queue.add(node.left);
+                if (node.right != null)
+                    queue.add(node.right);
+            }
         }
-
     }
 
     public static Node insert(Node root,int data){
@@ -54,7 +62,6 @@ public class Day22 {
             int data=sc.nextInt();
             root=insert(root,data);
         }
-        int height=getHeight(root);
-        System.out.println(height);
+        levelOrder(root);
     }
 }

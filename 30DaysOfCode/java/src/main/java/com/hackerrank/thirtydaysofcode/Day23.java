@@ -4,19 +4,20 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-class Day23{
+class Day23 {
 
-    static class Node{
-        Node left,right;
+    static class Node {
+        Node left, right;
         int data;
-        Node(int data){
-            this.data=data;
-            left=right=null;
+
+        Node(int data) {
+            this.data = data;
+            left = right = null;
         }
     }
 
-    static void levelOrder(Node root){
-        if(root!=null) {
+    static void levelOrder(Node root) {
+        if (root != null) {
             // 1 - enqueue current root
             Queue<Node> queue = new LinkedList<>();
             queue.add(root);
@@ -36,31 +37,29 @@ class Day23{
         }
     }
 
-    public static Node insert(Node root,int data){
-        if(root==null){
+    public static Node insert(Node root, int data) {
+        if (root == null) {
             return new Node(data);
-        }
-        else{
+        } else {
             Node cur;
-            if(data<=root.data){
-                cur=insert(root.left,data);
-                root.left=cur;
-            }
-            else{
-                cur=insert(root.right,data);
-                root.right=cur;
+            if (data <= root.data) {
+                cur = insert(root.left, data);
+                root.left = cur;
+            } else {
+                cur = insert(root.right, data);
+                root.right = cur;
             }
             return root;
         }
     }
 
-    public static void main(String args[]){
-        Scanner sc=new Scanner(System.in);
-        int T=sc.nextInt();
-        Node root=null;
-        while(T-->0){
-            int data=sc.nextInt();
-            root=insert(root,data);
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        int T = sc.nextInt();
+        Node root = null;
+        while (T-- > 0) {
+            int data = sc.nextInt();
+            root = insert(root, data);
         }
         levelOrder(root);
     }
